@@ -1,0 +1,21 @@
+{
+  "repository": "@eltha9/design_system_G01-E09",
+  "base": "master",
+  "head": "specify",
+  "rules": [
+    {
+      "path": "my-styles/my-colors.css",
+      "parsers": [
+        {
+          "name": "camelcasify",
+          "options": {
+            "keys": ["name"]
+          }
+        },
+        {
+          "name": "to-css-custom-properties"
+        }
+      ]
+    }
+  ]
+}
