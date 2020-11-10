@@ -1,0 +1,23 @@
+{
+  "name": "design_system_g01-e09",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node-sass -w sass/main.scss -o public/styles/",
+    "build": "node-sass sass/main.scss -o public/styles/ --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eltha9/design_system_G01-E09.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eltha9/design_system_G01-E09/issues"
+  },
+  "homepage": "https://github.com/eltha9/design_system_G01-E09#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
