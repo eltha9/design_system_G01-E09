@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design system test</title>
+</head>
+<body>
+    <section class="side-bar">
+        <div class="side-bar-top">
+            <div class="side-bar-title">account</div>
+            <div class="account-menu">
+                <div class="account-menu-user">
+                    <div class="account-menu-user-avatar">
+                        <img src="" alt="">
+                    </div>
+                    <div class="account-menu-user-name">Jane Doe</div>
+                </div>
+                <nav class="account-menu-nav">
+                    <a href="#" class="account-menu-nav-innerlink">Profile</a>
+                    <a href="#" class="account-menu-nav-innerlink">Settings</a>
+                    <a href="#" class="account-menu-nav-innerlink">Data</a>
+                </nav>
+            </div>
+        </div>
+        <div class="side-bar-bottom">
+            <div class="dark-mode">
+                <span class="dark-mode-title">Dark Mode</span>
+                <div class="dark-mode-switch">
+                    <input type="checkbox" name="dark-mode-state" class="dark-mode-switch-hidden-input">
+                    <div class="dark-mode-swicth-bubble"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main>
+        <div class="account-content">
+            <h1 class="account-title">Profile</h1>
+            <form action="#" class="account-form-change">
+                <input type="hidden" name="update-account" value="true">
+                <label>
+                    <span>Email</span>
+                    <input type="email">
+                </label>
+
+                <label>
+                    <span>Full name</span>
+                    <input type="text">
+                </label>
+                
+                <input type="submit">
+            </form>
+
+            <h2>Delete my acocunt</h2>
+            <form action="#" class="account-form-delete">
+                <input type="hidden" name="delete-account" value="true">
+                <input type="submit">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
