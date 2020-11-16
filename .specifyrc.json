@@ -4,11 +4,11 @@
   "head": "specify",
   "rules": [{
       "path": "sass/01-utils/variables/colors.scss",
+	  "filter": {
+		"types": ["color"]
+	  },
       "parsers": [{
           "name": "camelcasify",
-          "filter": {
-            "type": "color"
-          },
           "options": {
             "keys": ["name"]
           }
@@ -19,12 +19,12 @@
       ]
     },
     {
-      "path": "sass/01-utils/variables/mesurament.scss",
+      "path": "sass/01-utils/variables/mesurement.scss",
+	  "filter": {
+		"types": ["mesurement"]
+	  },
       "parsers": [{
           "name": "camelcasify",
-          "filter": {
-            "type": "mesurament"
-          },
           "options": {
             "keys": ["name"]
           }
@@ -36,11 +36,11 @@
     },
     {
       "path": "sass/01-utils/variables/shadow.scss",
+	  "filter": {
+		"types": ["shadow"]
+	  },
       "parsers": [{
           "name": "camelcasify",
-          "filter": {
-            "type": "shadow"
-          },
           "options": {
             "keys": ["name"]
           }
@@ -52,11 +52,11 @@
     },
     {
       "path": "sass/01-utils/variables/border.scss",
+	  "filter": {
+		"types": ["border"]
+	  },
       "parsers": [{
           "name": "camelcasify",
-          "filter": {
-            "type": "border"
-          },
           "options": {
             "keys": ["name"]
           }
