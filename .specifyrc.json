@@ -3,7 +3,7 @@
   "base": "master",
   "head": "specify",
   "rules": [{
-      "path": "sass/01-utilis/variables/colors.scss",
+      "path": "sass/01-utils/variables/colors.scss",
       "parsers": [{
           "name": "camelcasify",
           "filter": {
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "path": "sass/01-utilis/variables/mesurament.scss",
+      "path": "sass/01-utils/variables/mesurament.scss",
       "parsers": [{
           "name": "camelcasify",
           "filter": {
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "path": "sass/01-utilis/variables/shadow.scss",
+      "path": "sass/01-utils/variables/shadow.scss",
       "parsers": [{
           "name": "camelcasify",
           "filter": {
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "path": "sass/01-utilis/variables/border.scss",
+      "path": "sass/01-utils/variables/border.scss",
       "parsers": [{
           "name": "camelcasify",
           "filter": {
