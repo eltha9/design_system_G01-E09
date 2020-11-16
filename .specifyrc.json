@@ -2,12 +2,61 @@
   "repository": "@hetic/G01_E09",
   "base": "master",
   "head": "specify",
-  "rules": [
-    {
-      "path": "my-styles/my-colors.css",
-      "parsers": [
-        {
+  "rules": [{
+      "path": "sass/01-utilis/variables/colors.scss",
+      "parsers": [{
           "name": "camelcasify",
+          "filter": {
+            "type": "color"
+          },
+          "options": {
+            "keys": ["name"]
+          }
+        },
+        {
+          "name": "to-css-custom-properties"
+        }
+      ]
+    },
+    {
+      "path": "sass/01-utilis/variables/mesurament.scss",
+      "parsers": [{
+          "name": "camelcasify",
+          "filter": {
+            "type": "mesurament"
+          },
+          "options": {
+            "keys": ["name"]
+          }
+        },
+        {
+          "name": "to-css-custom-properties"
+        }
+      ]
+    },
+    {
+      "path": "sass/01-utilis/variables/shadow.scss",
+      "parsers": [{
+          "name": "camelcasify",
+          "filter": {
+            "type": "shadow"
+          },
+          "options": {
+            "keys": ["name"]
+          }
+        },
+        {
+          "name": "to-css-custom-properties"
+        }
+      ]
+    },
+    {
+      "path": "sass/01-utilis/variables/border.scss",
+      "parsers": [{
+          "name": "camelcasify",
+          "filter": {
+            "type": "border"
+          },
           "options": {
             "keys": ["name"]
           }
