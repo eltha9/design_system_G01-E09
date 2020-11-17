@@ -4,7 +4,7 @@
   "base": "master",
   "head": "specify",
   "rules": [{
-      "path": "sass/01-utils/variables/colors.scss",
+      "path": "sass/01-utils/variables/colors/color-dark.scss",
 	  "filter": {
 		"types": ["color"]
 	  },
