@@ -10,18 +10,29 @@
     input[type=checkbox]{
         display: none;
     }
-    position: relative;
-
+    // position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     .dark-mode-switch-bubble{
-        position: absolute;
-        top:0%;
-        left: 0%;
-        transform: translateY(50%);
+        // position: absolute;
+        // top:2px;
+        // left: 2px;
+        
         width: 22px;
         height: 22px;
         border-radius: 50%;
 
 
         background-color: var(--backgroundComponentParent);
+    }
+    transition: all 0.3s ease-in;
+    &.switched{
+        justify-content: flex-end;
+        background-color:var(--backgroundButtonDefault);
+
+        .dark-mode-switch-bubble{
+            background-color: var(--backgroundComponentHoverOnDarker);
+        }
     }
 }

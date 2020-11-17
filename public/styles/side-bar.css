@@ -262,18 +262,22 @@
   box-sizing: border-box;
   padding: 2px;
   border-radius: 13px;
-  position: relative; }
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  transition: all 0.3s ease-in; }
   .dark-mode-switch input[type=checkbox] {
     display: none; }
   .dark-mode-switch .dark-mode-switch-bubble {
-    position: absolute;
-    top: 50%;
-    left: 0%;
-    transform: translateY(50%);
     width: 22px;
     height: 22px;
     border-radius: 50%;
     background-color: var(--backgroundComponentParent); }
+  .dark-mode-switch.switched {
+    justify-content: flex-end;
+    background-color: var(--backgroundButtonDefault); }
+    .dark-mode-switch.switched .dark-mode-switch-bubble {
+      background-color: var(--backgroundComponentHoverOnDarker); }
 
 section.side-bar {
   background-color: var(--backgroundSurfaceSurface2);
