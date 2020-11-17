@@ -1,0 +1,56 @@
+{
+  "personalAccessToken":"7be8e0358f619519b5dac7294e0c813187abe8acefa04f490829a1070e5a565d",
+  "repository": "@hetic/G01_E09_DarkTheme",
+  "base": "master",
+  "head": "specify",
+  "rules": [{
+      "path": "sass/01-utils/variables/colors.scss",
+	  "filter": {
+		"types": ["color"]
+	  },
+      "parsers": [{
+          "name": "camelcasify",
+          "options": {
+            "keys": ["name"]
+          }
+        },
+        {
+          "name": "to-css-custom-properties"
+        }
+      ]
+    },
+    
+    {
+      "path": "sass/01-utils/variables/shadow.scss",
+	  "filter": {
+		"types": ["shadow"]
+	  },
+      "parsers": [{
+          "name": "camelcasify",
+          "options": {
+            "keys": ["name"]
+          }
+        },
+        {
+          "name": "to-css-custom-properties"
+        }
+      ]
+    },
+    {
+      "path": "sass/01-utils/variables/border.scss",
+	  "filter": {
+		"types": ["border"]
+	  },
+      "parsers": [{
+          "name": "camelcasify",
+          "options": {
+            "keys": ["name"]
+          }
+        },
+        {
+          "name": "to-css-custom-properties"
+        }
+      ]
+    }
+  ]
+}

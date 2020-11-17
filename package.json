@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/eltha9/design_system_G01-E09#readme",
   "devDependencies": {
+    "@specifyapp/cli": "^0.0.46",
     "node-sass": "^5.0.0"
   }
 }

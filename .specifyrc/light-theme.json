@@ -1,4 +1,5 @@
 {
+  "personalAccessToken":"7be8e0358f619519b5dac7294e0c813187abe8acefa04f490829a1070e5a565d",
   "repository": "@hetic/G01_E09_LightTheme",
   "base": "master",
   "head": "specify",
@@ -19,14 +20,17 @@
       ]
     },
     {
-      "path": "sass/01-utils/variables/mesurement.scss",
+      "path": "sass/01-utils/variables/measurement.scss",
 	  "filter": {
-		"types": ["mesurement"]
+		"types": ["measurement"]
 	  },
       "parsers": [{
           "name": "camelcasify",
           "options": {
-            "keys": ["name"]
+            "keys": ["name"],
+              "formatConfig": {
+                "selector": ":root[data-theme='dark']"
+              }
           }
         },
         {
