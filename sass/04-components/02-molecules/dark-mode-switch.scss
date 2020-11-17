@@ -29,10 +29,10 @@
     transition: all 0.3s ease-in;
     &.switched{
         justify-content: flex-end;
-        background-color:var(--backgroundButtonDefault);
+        // background-color:var(--backgroundButtonDefault);
 
-        .dark-mode-switch-bubble{
-            background-color: var(--backgroundComponentHoverOnDarker);
-        }
+        // .dark-mode-switch-bubble{
+        //     background-color: var(--backgroundComponentHoverOnDarker);
+        // }
     }
 }

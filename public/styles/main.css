@@ -1,1 +1,400 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}body{font-family:'Open Sans', sans-serif}:root{--backgroundButtonDefault: rgb(219, 225, 255);--backgroundButtonDisabled: rgb(247, 246, 249);--backgroundButtonHover: rgb(107, 132, 246);--backgroundButtonOnClick: rgb(204, 213, 254);--backgroundComponentChild: rgb(247, 246, 249);--backgroundComponentDanger: rgb(224, 86, 71);--backgroundComponentDisabled: rgb(220, 226, 234);--backgroundComponentHelp: rgb(124, 198, 254);--backgroundComponentHoverOnDarker: rgb(179, 189, 204);--backgroundComponentHoverOnLighter: rgb(107, 132, 246);--backgroundComponentInput: rgb(24, 29, 35);--backgroundComponentParent: rgb(254, 253, 255);--backgroundComponentTchoupi: rgb(24, 29, 35);--backgroundComponentValidated: rgb(140, 221, 121);--backgroundComponentWarning: rgb(251, 163, 60);--backgroundSurfaceOverlay: rgb(24, 29, 35);--backgroundSurfaceSurface1: rgb(254, 253, 255);--backgroundSurfaceSurface2: rgb(247, 246, 249);--backgroundSurfaceSurface3: rgb(220, 226, 234);--borderInputDangerDefault: rgb(255, 146, 131);--borderInputDangerSelected: rgb(199, 58, 50);--borderInputDefault: rgb(220, 226, 234);--borderInputSelected: rgb(52, 66, 129);--borderInputValidatedDefault: rgb(225, 242, 221);--borderInputValidatedSelected: rgb(140, 221, 121);--globalNeutralN1: rgb(247, 246, 249);--globalNeutralN2: rgb(220, 226, 234);--globalNeutralN3: rgb(204, 212, 222);--globalNeutralN4: rgb(179, 189, 204);--globalNeutralN5: rgb(121, 139, 161);--globalNeutralN6: rgb(53, 59, 67);--globalNeutralN7: rgb(24, 29, 35);--globalNeutralWhite: rgb(254, 253, 255);--globalPrimaryBase: rgb(107, 132, 246);--globalPrimaryDark: rgb(52, 66, 129);--globalPrimaryLight: rgb(204, 213, 254);--globalPrimaryLighter: rgb(219, 225, 255);--globalSemanticBlueBase: rgb(124, 198, 254);--globalSemanticBlueLighter: rgb(229, 244, 255);--globalSemanticGreenBase: rgb(140, 221, 121);--globalSemanticGreenDark: rgb(59, 151, 38);--globalSemanticGreenLighter: rgb(225, 242, 221);--globalSemanticOrangeBase: rgb(251, 163, 60);--globalSemanticOrangeLighter: rgb(255, 242, 226);--globalSemanticRedBase: rgb(224, 86, 71);--globalSemanticRedDark: rgb(199, 58, 50);--globalSemanticRedLight: rgb(255, 146, 131);--globalSemanticRedLighter: rgb(255, 222, 218);--textActive: rgb(107, 132, 246);--textDanger: rgb(224, 86, 71);--textHelp: rgb(124, 198, 254);--textHighEmphasis: rgb(24, 29, 35);--textLowEmphasis: rgb(121, 139, 161);--textMediumEmphasis: rgb(53, 59, 67);--textOnColoredBg: rgb(247, 246, 249);--textValidated: rgb(59, 151, 38);--textWarning: rgb(251, 163, 60);--backgroundFilter: 1152px;--component: 48px;--componentAvatar: 20px;--componentButton: 67px;--componentButton: 78px;--componentInput: 230px;--componentInput: 230px;--componentLabel: 63px;--componentLabel: 289px;--componentLabel: 57px;--componentLabel: 31px;--componentLabel: 27px;--componentLabel: 45px;--componentLabel: 56px;--componentLabel: 37px;--componentLabel: 50px;--componentLabel: 51px;--componentLabel: 51px;--componentTitle: 85px;--componentTitle: 161px;--componentTitle: 72px;--group1: 682px;--line1: 140.00990295410156px;--line2: 229px;--component: 1px solid rgba(123, 97, 255, 1);--component: 1px solid rgba(123, 97, 255, 1);--component: 1px solid rgba(123, 97, 255, 1);--component: 1px solid rgba(123, 97, 255, 1);--componentButton: 1px solid rgba(123, 97, 255, 1);--componentButton: 1px solid rgba(123, 97, 255, 1);--componentInput: 1px solid rgba(123, 97, 255, 1);--componentInput: 1px solid rgba(123, 97, 255, 1);--component: ;--component: ;--componentAvatar: ;--componentButton: ;--componentButtonDefault: ;--componentButtonDelete: ;--componentButtonDisabled: ;--componentButtonHover: ;--componentButtonOnClick: ;--componentIconCheck: ;--componentIconCheck: ;--componentIconLoading: ;--componentInput: ;--componentInputDefault: ;--componentInputSelected: ;--componentInputValidated: ;--componentInputWarning: ;--componentLabel: ;--componentLabel: ;--componentSubtitle: ;--componentSubtitle: ;--componentTitle: ;--componentTitle: ;--componentTitle: ;--componentToggleActive: ;--componentToggleDisabled: }.avatar{color:var(--textOnColoredBg);background-color:var(--globalPrimaryBase);border-radius:50%;width:20px;height:20px;display:flex;justify-content:center;align-items:center}.avatar span{text-transform:uppercase;font-size:22px;font-weight:600;font-size:12px}:root{--backgroundButtonDefault: rgb(219, 225, 255);--backgroundButtonDisabled: rgb(247, 246, 249);--backgroundButtonHover: rgb(107, 132, 246);--backgroundButtonOnClick: rgb(204, 213, 254);--backgroundComponentChild: rgb(247, 246, 249);--backgroundComponentDanger: rgb(224, 86, 71);--backgroundComponentDisabled: rgb(220, 226, 234);--backgroundComponentHelp: rgb(124, 198, 254);--backgroundComponentHoverOnDarker: rgb(179, 189, 204);--backgroundComponentHoverOnLighter: rgb(107, 132, 246);--backgroundComponentInput: rgb(24, 29, 35);--backgroundComponentParent: rgb(254, 253, 255);--backgroundComponentTchoupi: rgb(24, 29, 35);--backgroundComponentValidated: rgb(140, 221, 121);--backgroundComponentWarning: rgb(251, 163, 60);--backgroundSurfaceOverlay: rgb(24, 29, 35);--backgroundSurfaceSurface1: rgb(254, 253, 255);--backgroundSurfaceSurface2: rgb(247, 246, 249);--backgroundSurfaceSurface3: rgb(220, 226, 234);--borderInputDangerDefault: rgb(255, 146, 131);--borderInputDangerSelected: rgb(199, 58, 50);--borderInputDefault: rgb(220, 226, 234);--borderInputSelected: rgb(52, 66, 129);--borderInputValidatedDefault: rgb(225, 242, 221);--borderInputValidatedSelected: rgb(140, 221, 121);--globalNeutralN1: rgb(247, 246, 249);--globalNeutralN2: rgb(220, 226, 234);--globalNeutralN3: rgb(204, 212, 222);--globalNeutralN4: rgb(179, 189, 204);--globalNeutralN5: rgb(121, 139, 161);--globalNeutralN6: rgb(53, 59, 67);--globalNeutralN7: rgb(24, 29, 35);--globalNeutralWhite: rgb(254, 253, 255);--globalPrimaryBase: rgb(107, 132, 246);--globalPrimaryDark: rgb(52, 66, 129);--globalPrimaryLight: rgb(204, 213, 254);--globalPrimaryLighter: rgb(219, 225, 255);--globalSemanticBlueBase: rgb(124, 198, 254);--globalSemanticBlueLighter: rgb(229, 244, 255);--globalSemanticGreenBase: rgb(140, 221, 121);--globalSemanticGreenDark: rgb(59, 151, 38);--globalSemanticGreenLighter: rgb(225, 242, 221);--globalSemanticOrangeBase: rgb(251, 163, 60);--globalSemanticOrangeLighter: rgb(255, 242, 226);--globalSemanticRedBase: rgb(224, 86, 71);--globalSemanticRedDark: rgb(199, 58, 50);--globalSemanticRedLight: rgb(255, 146, 131);--globalSemanticRedLighter: rgb(255, 222, 218);--textActive: rgb(107, 132, 246);--textDanger: rgb(224, 86, 71);--textHelp: rgb(124, 198, 254);--textHighEmphasis: rgb(24, 29, 35);--textLowEmphasis: rgb(121, 139, 161);--textMediumEmphasis: rgb(53, 59, 67);--textOnColoredBg: rgb(247, 246, 249);--textValidated: rgb(59, 151, 38);--textWarning: rgb(251, 163, 60);--backgroundFilter: 1152px;--component: 48px;--componentAvatar: 20px;--componentButton: 67px;--componentButton: 78px;--componentInput: 230px;--componentInput: 230px;--componentLabel: 63px;--componentLabel: 289px;--componentLabel: 57px;--componentLabel: 31px;--componentLabel: 27px;--componentLabel: 45px;--componentLabel: 56px;--componentLabel: 37px;--componentLabel: 50px;--componentLabel: 51px;--componentLabel: 51px;--componentTitle: 85px;--componentTitle: 161px;--componentTitle: 72px;--group1: 682px;--line1: 140.00990295410156px;--line2: 229px;--component: 1px solid rgba(123, 97, 255, 1);--component: 1px solid rgba(123, 97, 255, 1);--component: 1px solid rgba(123, 97, 255, 1);--component: 1px solid rgba(123, 97, 255, 1);--componentButton: 1px solid rgba(123, 97, 255, 1);--componentButton: 1px solid rgba(123, 97, 255, 1);--componentInput: 1px solid rgba(123, 97, 255, 1);--componentInput: 1px solid rgba(123, 97, 255, 1);--component: ;--component: ;--componentAvatar: ;--componentButton: ;--componentButtonDefault: ;--componentButtonDelete: ;--componentButtonDisabled: ;--componentButtonHover: ;--componentButtonOnClick: ;--componentIconCheck: ;--componentIconCheck: ;--componentIconLoading: ;--componentInput: ;--componentInputDefault: ;--componentInputSelected: ;--componentInputValidated: ;--componentInputWarning: ;--componentLabel: ;--componentLabel: ;--componentSubtitle: ;--componentSubtitle: ;--componentTitle: ;--componentTitle: ;--componentTitle: ;--componentToggleActive: ;--componentToggleDisabled: }.dark-mode-switch{background-color:var(--backgroundComponentDisabled);width:64px;height:24px;box-sizing:border-box;padding:2px;border-radius:13px;display:flex;align-items:center;justify-content:flex-start;transition:all 0.3s ease-in}.dark-mode-switch input[type=checkbox]{display:none}.dark-mode-switch .dark-mode-switch-bubble{width:22px;height:22px;border-radius:50%;background-color:var(--backgroundComponentParent)}.dark-mode-switch.switched{justify-content:flex-end;background-color:var(--backgroundButtonDefault)}.dark-mode-switch.switched .dark-mode-switch-bubble{background-color:var(--backgroundComponentHoverOnDarker)}section.side-bar{background-color:var(--backgroundSurfaceSurface2);display:flex;flex-direction:column;justify-content:space-between;padding:64px 40px;box-sizing:border-box}section.side-bar .side-bar-top .side-bar-title{font-size:32px;font-weight:500;color:var(--textHighEmphasis)}section.side-bar .side-bar-top .menu-line{background-color:var(--globalNeutralN5);height:1px;width:100%;margin:32px 0}section.side-bar .side-bar-top .account-menu .account-menu-user{display:flex;flex-direction:row}section.side-bar .side-bar-top .account-menu .account-menu-user .account-menu-user-name{color:var(--textHighEmphasis);font-size:22px;font-weight:500;margin-left:16px}section.side-bar .side-bar-top .account-menu .account-menu-nav{display:flex;flex-direction:column}section.side-bar .side-bar-top .account-menu .account-menu-nav a{margin-top:32px;text-decoration:none;font-size:22px;font-weight:500;color:var(--textHighEmphasis)}section.side-bar .side-bar-bottom .dark-mode{display:flex;flex-direction:row;justify-content:space-between}section.side-bar .side-bar-bottom .dark-mode .dark-mode-title{font-size:22px;font-weight:500}body{display:flex;flex-direction:row}body section.side-bar{width:24%;height:100%}body main{width:76%;height:100%}body{margin:0;width:100vw;height:100vh;overflow:hidden}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+main {
+  display: flex;
+  justify-content: center; }
+  main .account-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column; }
+    main .account-content h1 {
+      font-size: 40px;
+      font-weight: 600; }
+    main .account-content form input[type=hidden] {
+      display: none; }
+    main .account-content form.account-form-change {
+      display: flex;
+      flex-direction: column; }
+
+:root {
+  /* COLOR */
+  --backgroundButtonDefault: rgb(219, 225, 255);
+  --backgroundButtonDisabled: rgb(247, 246, 249);
+  --backgroundButtonHover: rgb(107, 132, 246);
+  --backgroundButtonOnClick: rgb(204, 213, 254);
+  --backgroundComponentChild: rgb(247, 246, 249);
+  --backgroundComponentDanger: rgb(224, 86, 71);
+  --backgroundComponentDisabled: rgb(220, 226, 234);
+  --backgroundComponentHelp: rgb(124, 198, 254);
+  --backgroundComponentHoverOnDarker: rgb(179, 189, 204);
+  --backgroundComponentHoverOnLighter: rgb(107, 132, 246);
+  --backgroundComponentInput: rgb(24, 29, 35);
+  --backgroundComponentParent: rgb(254, 253, 255);
+  --backgroundComponentTchoupi: rgb(24, 29, 35);
+  --backgroundComponentValidated: rgb(140, 221, 121);
+  --backgroundComponentWarning: rgb(251, 163, 60);
+  --backgroundSurfaceOverlay: rgb(24, 29, 35);
+  --backgroundSurfaceSurface1: rgb(254, 253, 255);
+  --backgroundSurfaceSurface2: rgb(247, 246, 249);
+  --backgroundSurfaceSurface3: rgb(220, 226, 234);
+  --borderInputDangerDefault: rgb(255, 146, 131);
+  --borderInputDangerSelected: rgb(199, 58, 50);
+  --borderInputDefault: rgb(220, 226, 234);
+  --borderInputSelected: rgb(52, 66, 129);
+  --borderInputValidatedDefault: rgb(225, 242, 221);
+  --borderInputValidatedSelected: rgb(140, 221, 121);
+  --globalNeutralN1: rgb(247, 246, 249);
+  --globalNeutralN2: rgb(220, 226, 234);
+  --globalNeutralN3: rgb(204, 212, 222);
+  --globalNeutralN4: rgb(179, 189, 204);
+  --globalNeutralN5: rgb(121, 139, 161);
+  --globalNeutralN6: rgb(53, 59, 67);
+  --globalNeutralN7: rgb(24, 29, 35);
+  --globalNeutralWhite: rgb(254, 253, 255);
+  --globalPrimaryBase: rgb(107, 132, 246);
+  --globalPrimaryDark: rgb(52, 66, 129);
+  --globalPrimaryLight: rgb(204, 213, 254);
+  --globalPrimaryLighter: rgb(219, 225, 255);
+  --globalSemanticBlueBase: rgb(124, 198, 254);
+  --globalSemanticBlueLighter: rgb(229, 244, 255);
+  --globalSemanticGreenBase: rgb(140, 221, 121);
+  --globalSemanticGreenDark: rgb(59, 151, 38);
+  --globalSemanticGreenLighter: rgb(225, 242, 221);
+  --globalSemanticOrangeBase: rgb(251, 163, 60);
+  --globalSemanticOrangeLighter: rgb(255, 242, 226);
+  --globalSemanticRedBase: rgb(224, 86, 71);
+  --globalSemanticRedDark: rgb(199, 58, 50);
+  --globalSemanticRedLight: rgb(255, 146, 131);
+  --globalSemanticRedLighter: rgb(255, 222, 218);
+  --textActive: rgb(107, 132, 246);
+  --textDanger: rgb(224, 86, 71);
+  --textHelp: rgb(124, 198, 254);
+  --textHighEmphasis: rgb(24, 29, 35);
+  --textLowEmphasis: rgb(121, 139, 161);
+  --textMediumEmphasis: rgb(53, 59, 67);
+  --textOnColoredBg: rgb(247, 246, 249);
+  --textValidated: rgb(59, 151, 38);
+  --textWarning: rgb(251, 163, 60);
+  /* MEASUREMENT */
+  --backgroundFilter: 1152px;
+  --component: 48px;
+  --componentAvatar: 20px;
+  --componentButton: 67px;
+  --componentButton: 78px;
+  --componentInput: 230px;
+  --componentInput: 230px;
+  --componentLabel: 63px;
+  --componentLabel: 289px;
+  --componentLabel: 57px;
+  --componentLabel: 31px;
+  --componentLabel: 27px;
+  --componentLabel: 45px;
+  --componentLabel: 56px;
+  --componentLabel: 37px;
+  --componentLabel: 50px;
+  --componentLabel: 51px;
+  --componentLabel: 51px;
+  --componentTitle: 85px;
+  --componentTitle: 161px;
+  --componentTitle: 72px;
+  --group1: 682px;
+  --line1: 140.00990295410156px;
+  --line2: 229px;
+  /* BORDER */
+  --component: 1px solid rgba(123, 97, 255, 1);
+  --component: 1px solid rgba(123, 97, 255, 1);
+  --component: 1px solid rgba(123, 97, 255, 1);
+  --component: 1px solid rgba(123, 97, 255, 1);
+  --componentButton: 1px solid rgba(123, 97, 255, 1);
+  --componentButton: 1px solid rgba(123, 97, 255, 1);
+  --componentInput: 1px solid rgba(123, 97, 255, 1);
+  --componentInput: 1px solid rgba(123, 97, 255, 1);
+  /* SHADOW */
+  --component: ;
+  --component: ;
+  --componentAvatar: ;
+  --componentButton: ;
+  --componentButtonDefault: ;
+  --componentButtonDelete: ;
+  --componentButtonDisabled: ;
+  --componentButtonHover: ;
+  --componentButtonOnClick: ;
+  --componentIconCheck: ;
+  --componentIconCheck: ;
+  --componentIconLoading: ;
+  --componentInput: ;
+  --componentInputDefault: ;
+  --componentInputSelected: ;
+  --componentInputValidated: ;
+  --componentInputWarning: ;
+  --componentLabel: ;
+  --componentLabel: ;
+  --componentSubtitle: ;
+  --componentSubtitle: ;
+  --componentTitle: ;
+  --componentTitle: ;
+  --componentTitle: ;
+  --componentToggleActive: ;
+  --componentToggleDisabled: ; }
+
+.avatar {
+  color: var(--textOnColoredBg);
+  background-color: var(--globalPrimaryBase);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .avatar span {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+    font-size: 12px; }
+
+:root {
+  /* COLOR */
+  --backgroundButtonDefault: rgb(219, 225, 255);
+  --backgroundButtonDisabled: rgb(247, 246, 249);
+  --backgroundButtonHover: rgb(107, 132, 246);
+  --backgroundButtonOnClick: rgb(204, 213, 254);
+  --backgroundComponentChild: rgb(247, 246, 249);
+  --backgroundComponentDanger: rgb(224, 86, 71);
+  --backgroundComponentDisabled: rgb(220, 226, 234);
+  --backgroundComponentHelp: rgb(124, 198, 254);
+  --backgroundComponentHoverOnDarker: rgb(179, 189, 204);
+  --backgroundComponentHoverOnLighter: rgb(107, 132, 246);
+  --backgroundComponentInput: rgb(24, 29, 35);
+  --backgroundComponentParent: rgb(254, 253, 255);
+  --backgroundComponentTchoupi: rgb(24, 29, 35);
+  --backgroundComponentValidated: rgb(140, 221, 121);
+  --backgroundComponentWarning: rgb(251, 163, 60);
+  --backgroundSurfaceOverlay: rgb(24, 29, 35);
+  --backgroundSurfaceSurface1: rgb(254, 253, 255);
+  --backgroundSurfaceSurface2: rgb(247, 246, 249);
+  --backgroundSurfaceSurface3: rgb(220, 226, 234);
+  --borderInputDangerDefault: rgb(255, 146, 131);
+  --borderInputDangerSelected: rgb(199, 58, 50);
+  --borderInputDefault: rgb(220, 226, 234);
+  --borderInputSelected: rgb(52, 66, 129);
+  --borderInputValidatedDefault: rgb(225, 242, 221);
+  --borderInputValidatedSelected: rgb(140, 221, 121);
+  --globalNeutralN1: rgb(247, 246, 249);
+  --globalNeutralN2: rgb(220, 226, 234);
+  --globalNeutralN3: rgb(204, 212, 222);
+  --globalNeutralN4: rgb(179, 189, 204);
+  --globalNeutralN5: rgb(121, 139, 161);
+  --globalNeutralN6: rgb(53, 59, 67);
+  --globalNeutralN7: rgb(24, 29, 35);
+  --globalNeutralWhite: rgb(254, 253, 255);
+  --globalPrimaryBase: rgb(107, 132, 246);
+  --globalPrimaryDark: rgb(52, 66, 129);
+  --globalPrimaryLight: rgb(204, 213, 254);
+  --globalPrimaryLighter: rgb(219, 225, 255);
+  --globalSemanticBlueBase: rgb(124, 198, 254);
+  --globalSemanticBlueLighter: rgb(229, 244, 255);
+  --globalSemanticGreenBase: rgb(140, 221, 121);
+  --globalSemanticGreenDark: rgb(59, 151, 38);
+  --globalSemanticGreenLighter: rgb(225, 242, 221);
+  --globalSemanticOrangeBase: rgb(251, 163, 60);
+  --globalSemanticOrangeLighter: rgb(255, 242, 226);
+  --globalSemanticRedBase: rgb(224, 86, 71);
+  --globalSemanticRedDark: rgb(199, 58, 50);
+  --globalSemanticRedLight: rgb(255, 146, 131);
+  --globalSemanticRedLighter: rgb(255, 222, 218);
+  --textActive: rgb(107, 132, 246);
+  --textDanger: rgb(224, 86, 71);
+  --textHelp: rgb(124, 198, 254);
+  --textHighEmphasis: rgb(24, 29, 35);
+  --textLowEmphasis: rgb(121, 139, 161);
+  --textMediumEmphasis: rgb(53, 59, 67);
+  --textOnColoredBg: rgb(247, 246, 249);
+  --textValidated: rgb(59, 151, 38);
+  --textWarning: rgb(251, 163, 60);
+  /* MEASUREMENT */
+  --backgroundFilter: 1152px;
+  --component: 48px;
+  --componentAvatar: 20px;
+  --componentButton: 67px;
+  --componentButton: 78px;
+  --componentInput: 230px;
+  --componentInput: 230px;
+  --componentLabel: 63px;
+  --componentLabel: 289px;
+  --componentLabel: 57px;
+  --componentLabel: 31px;
+  --componentLabel: 27px;
+  --componentLabel: 45px;
+  --componentLabel: 56px;
+  --componentLabel: 37px;
+  --componentLabel: 50px;
+  --componentLabel: 51px;
+  --componentLabel: 51px;
+  --componentTitle: 85px;
+  --componentTitle: 161px;
+  --componentTitle: 72px;
+  --group1: 682px;
+  --line1: 140.00990295410156px;
+  --line2: 229px;
+  /* BORDER */
+  --component: 1px solid rgba(123, 97, 255, 1);
+  --component: 1px solid rgba(123, 97, 255, 1);
+  --component: 1px solid rgba(123, 97, 255, 1);
+  --component: 1px solid rgba(123, 97, 255, 1);
+  --componentButton: 1px solid rgba(123, 97, 255, 1);
+  --componentButton: 1px solid rgba(123, 97, 255, 1);
+  --componentInput: 1px solid rgba(123, 97, 255, 1);
+  --componentInput: 1px solid rgba(123, 97, 255, 1);
+  /* SHADOW */
+  --component: ;
+  --component: ;
+  --componentAvatar: ;
+  --componentButton: ;
+  --componentButtonDefault: ;
+  --componentButtonDelete: ;
+  --componentButtonDisabled: ;
+  --componentButtonHover: ;
+  --componentButtonOnClick: ;
+  --componentIconCheck: ;
+  --componentIconCheck: ;
+  --componentIconLoading: ;
+  --componentInput: ;
+  --componentInputDefault: ;
+  --componentInputSelected: ;
+  --componentInputValidated: ;
+  --componentInputWarning: ;
+  --componentLabel: ;
+  --componentLabel: ;
+  --componentSubtitle: ;
+  --componentSubtitle: ;
+  --componentTitle: ;
+  --componentTitle: ;
+  --componentTitle: ;
+  --componentToggleActive: ;
+  --componentToggleDisabled: ; }
+
+.dark-mode-switch {
+  background-color: var(--backgroundComponentDisabled);
+  width: 64px;
+  height: 24px;
+  box-sizing: border-box;
+  padding: 2px;
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  transition: all 0.3s ease-in; }
+  .dark-mode-switch input[type=checkbox] {
+    display: none; }
+  .dark-mode-switch .dark-mode-switch-bubble {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: var(--backgroundComponentParent); }
+  .dark-mode-switch.switched {
+    justify-content: flex-end; }
+
+section.side-bar {
+  background-color: var(--backgroundSurfaceSurface2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 64px 40px;
+  box-sizing: border-box; }
+  section.side-bar .side-bar-top .side-bar-title {
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--textHighEmphasis); }
+  section.side-bar .side-bar-top .menu-line {
+    background-color: var(--globalNeutralN5);
+    height: 1px;
+    width: 100%;
+    margin: 32px 0; }
+  section.side-bar .side-bar-top .account-menu .account-menu-user {
+    display: flex;
+    flex-direction: row; }
+    section.side-bar .side-bar-top .account-menu .account-menu-user .account-menu-user-name {
+      color: var(--textHighEmphasis);
+      font-size: 22px;
+      font-weight: 500;
+      margin-left: 16px; }
+  section.side-bar .side-bar-top .account-menu .account-menu-nav {
+    display: flex;
+    flex-direction: column; }
+    section.side-bar .side-bar-top .account-menu .account-menu-nav a {
+      margin-top: 32px;
+      text-decoration: none;
+      font-size: 22px;
+      font-weight: 500;
+      color: var(--textHighEmphasis); }
+  section.side-bar .side-bar-bottom .dark-mode {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    section.side-bar .side-bar-bottom .dark-mode .dark-mode-title {
+      font-size: 22px;
+      font-weight: 500; }
+
+body {
+  display: flex;
+  flex-direction: row; }
+  body section.side-bar {
+    width: 24%;
+    height: 100%; }
+  body main {
+    width: 76%;
+    height: 100%; }
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; }

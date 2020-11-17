@@ -1,3 +1,19 @@
+main {
+  display: flex;
+  justify-content: center; }
+  main .account-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column; }
+    main .account-content h1 {
+      font-size: 40px;
+      font-weight: 600; }
+    main .account-content form input[type=hidden] {
+      display: none; }
+    main .account-content form.account-form-change {
+      display: flex;
+      flex-direction: column; }
+
 :root {
   /* COLOR */
   --backgroundButtonDefault: rgb(219, 225, 255);
@@ -274,10 +290,7 @@
     border-radius: 50%;
     background-color: var(--backgroundComponentParent); }
   .dark-mode-switch.switched {
-    justify-content: flex-end;
-    background-color: var(--backgroundButtonDefault); }
-    .dark-mode-switch.switched .dark-mode-switch-bubble {
-      background-color: var(--backgroundComponentHoverOnDarker); }
+    justify-content: flex-end; }
 
 section.side-bar {
   background-color: var(--backgroundSurfaceSurface2);
