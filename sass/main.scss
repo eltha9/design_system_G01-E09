@@ -1,0 +1,11 @@
+@import '02-bases/reset';
+@import '01-utils/fonts-import';
+
+@import '04-components/04-pages/account'; 
+
+body{
+    margin:0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}

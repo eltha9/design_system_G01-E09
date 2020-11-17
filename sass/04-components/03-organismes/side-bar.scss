@@ -1,0 +1,70 @@
+//imports
+@import '../../03-fonts/fonts-style.scss';
+@import '../02-molecules/avatar.scss';
+
+//side bar section
+section.side-bar{
+    background-color:var(--backgroundSurfaceSurface2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    padding: 64px 40px;
+    box-sizing: border-box;
+    //top side bar
+    .side-bar-top{
+        .side-bar-title{
+            @include text-subtitle;
+            color: var(--textHighEmphasis);
+        }
+
+        .menu-line{
+            background-color: var(--globalNeutralN5);
+            height: 1px;
+            width: 100%;
+
+            margin: 32px 0;
+        }
+
+        .account-menu{
+
+            .account-menu-user{
+                display: flex;
+                flex-direction: row;
+                .account-menu-user-name{
+                    color: var(--textHighEmphasis);
+                    @include text-label;
+                    
+                    margin-left: 16px;
+                }
+            }
+
+            .account-menu-nav{
+                display: flex;
+                flex-direction: column;
+                a{
+                    margin-top: 32px;
+                    text-decoration: none;
+                    @include text-label;
+                    color: var(--textHighEmphasis);
+                }
+            }
+        }
+    }
+
+    //side bottom bar
+    .side-bar-bottom{
+        .dark-mode{
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .dark-mode-title{
+                @include text-label;
+            }
+
+        }
+    }
+
+}
