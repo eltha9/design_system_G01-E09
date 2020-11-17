@@ -1,6 +1,7 @@
 //imports
 @import '../../03-fonts/fonts-style.scss';
 @import '../02-molecules/avatar.scss';
+@import '../02-molecules/dark-mode-switch';
 
 //side bar section
 section.side-bar{
@@ -20,8 +21,8 @@ section.side-bar{
 
         .menu-line{
             background-color: var(--globalNeutralN5);
-            height: 1px;
-            width: 100%;
+                height: 1px;
+                width: 100%;
 
             margin: 32px 0;
         }

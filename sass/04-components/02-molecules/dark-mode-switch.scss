@@ -1,5 +1,27 @@
 @import '../../01-utils/variables/colors';
 
 .dark-mode-switch{
-    
+    background-color: var(--backgroundComponentDisabled);
+    width: 64px;
+    height: 24px;
+    box-sizing: border-box;
+    padding: 2px;
+    border-radius: 13px;
+    input[type=checkbox]{
+        display: none;
+    }
+    position: relative;
+
+    .dark-mode-switch-bubble{
+        position: absolute;
+        top:0%;
+        left: 0%;
+        transform: translateY(50%);
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+
+
+        background-color: var(--backgroundComponentParent);
+    }
 }
